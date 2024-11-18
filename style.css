@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body { font-family: 'Roboto', sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Merriweather', sans-serif; }
+.espaciado {
+    padding-top: 40px;
+}
+/*
++++++++++++++++++++++++++++++++++++
+MENU
++++++++++++++++++++++++++++++++++++
+*/
+.navbar{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.bg-body-tertiary{
+    background-color: #ff0504 !important;
+}
+.nav-link{
+    font-weight: 400;
+    font-size: 15px;
+}
+.form-control{
+    background-color: white;
+    color: black !important;
+}
+
+/*
++++++++++++++++++++++++++++++++++++
+BANER
++++++++++++++++++++++++++++++++++++
+*/
+
+
+/*
++++++++++++++++++++++++++++++++++++
+NOSOTROS
++++++++++++++++++++++++++++++++++++
+*/
+.nosotros-img{
+    width: 80%;
+    align-items: start;
+    height: 100%;
+    border-radius: 7px;
+    object-fit: cover;
+}
+.nosotros-card-texto{
+    padding: 30px;
+    max-width: 330px;
+    border-radius: 7px;
+    right: 540px;
+    bottom: -310px;
+    background-color: #ff0504;
+    position: absolute;
+    color: #e4e4e4;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.contenedos-nosotro-img{
+    margin-bottom: 60px;
+}
+.nosotros-card-titulo{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+    padding-bottom: 15px;
+}
+
+/*
++++++++++++++++++++++++++++++++++++
+garantiza 
++++++++++++++++++++++++++++++++++++
+*/
+.garantias-card-titulo{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+    padding-top: 5px;
+}
+.garantias-card-texto{
+    color: #6d6d6d;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.garantias-card-img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+/*
++++++++++++++++++++++++++++++++++++
+garantiza 
++++++++++++++++++++++++++++++++++++
+*/
+.img-alianzas{
+    width: 100%;
+}
+
+/*
++++++++++++++++++++++++++++++++++++
+POR QUE ELEGIRNOS 
++++++++++++++++++++++++++++++++++++
+*/
+.eligenos-titulo,.nosotros-titulo, .garantias-titulo{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.4;
+    padding-bottom: 10px;
+}
+.eligenos-subtitulo, .nosotros-subtitulo, .garantias-subtitulo{
+    color: #ff0504;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+    padding-bottom: 15px;
+}
+.eligneos-texto, .nosotros-texto, .garantias-card-texto{
+    color: #848484;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.card-title{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: capitalize;
+}
+.card-text{
+    color: #848484;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+/*
++++++++++++++++++++++++++++++++++++
+FOOTER
++++++++++++++++++++++++++++++++++++
+*/
+.footer{
+    background-color: #000000;
+}
+.footer-titulo{
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.footer-texto{
+    color: #9b9b9b;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.footer-telefono{
+    color: #ff0504;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+.footer-espaciado-left{
+    padding-left: 0;
+}
+.footer-texto-enlace{
+    color: #9b9b9b;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.footer-texto-enlace:hover{
+    color: white;
+}
